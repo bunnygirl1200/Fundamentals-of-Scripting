@@ -53,6 +53,7 @@
      <Compile Include="Assets\ForEachLoop.cs" />
      <Compile Include="Assets\ForLoop.cs" />
      <Compile Include="Assets\IfStatement.cs" />
+     <Compile Include="Assets\IfStatementPassOff.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\WhileLoop.cs" />
  <Reference Include="UnityEngine.UI">
