@@ -13,8 +13,9 @@ public class ForEachLoop : MonoBehaviour
 		
 		foreach(string item in strings)
 		{
-			print (item);
+			print(item);
 		}
 	}
 
 }
+
