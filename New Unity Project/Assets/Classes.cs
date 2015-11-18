@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 
 public class Classes : MonoBehaviour {
@@ -89,4 +89,80 @@ public class Spells
 
 }
 	public Spells mySpells = new Spells(14);
+	
+	
+	
+	
+	
+public class Spells
+{
+	public int gravira;
+	
+	public Spells()
+	{
+		gravira = 6;
+	}
+	public Spells(int grav)
+	{
+		gravira = grav;
+	}
+}	
+	public Spells mySpells = new Spells (16);
+	
+	
+	
+	
+	
+	
+	
+	public class Spells
+	{
+		public int cure;
+		
+		public Spells()
+		{
+			cure = 5;
+		}
+		public Spells(int c)
+		{
+			cure = c;
+		}
+		
+	}
+	
+	public Spells mySpells = new Spells(12);
+	
+	void Start()
+	{
+		Spells spells2 = mySpells;
+		
+		spells2.cure = 50;
+		
+		int num1 = 5;
+		int num2 = num1;
+		num2 = 100;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 

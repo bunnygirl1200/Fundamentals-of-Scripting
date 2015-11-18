@@ -46,9 +46,11 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Arrays.cs" />
      <Compile Include="Assets\Behaviour.cs" />
      <Compile Include="Assets\Classes.cs" />
      <Compile Include="Assets\DoWhileLoop.cs" />
+     <Compile Include="Assets\Enum.cs" />
      <Compile Include="Assets\FlyScript.cs" />
      <Compile Include="Assets\FlyScriptPassOff.cs" />
      <Compile Include="Assets\ForEachLoop.cs" />
@@ -57,6 +59,8 @@
      <Compile Include="Assets\IfStatementPassOff.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\ScopeAndAccessModifiers.cs" />
+     <Compile Include="Assets\Switch.cs" />
+     <Compile Include="Assets\Test.cs" />
      <Compile Include="Assets\WhileLoop.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
